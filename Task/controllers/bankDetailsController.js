@@ -22,3 +22,5 @@ exports.updateBankDetails = async (req, res, next) => {
     next(error);
   }
 };
+
+// Notify the merchant that the bank details have been updated
