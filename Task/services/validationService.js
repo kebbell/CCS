@@ -8,3 +8,4 @@ exports.validateBankDetails = (accountNumber, sortCode) => {
     // Test both the account number and sort code using their respective regex patterns
     return accountRegex.test(accountNumber) && sortCodeRegex.test(sortCode);
 };
+
